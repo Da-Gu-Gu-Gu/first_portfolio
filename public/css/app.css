@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Padauk', sans-serif;
+}
+
+ul li {
+    list-style: none;
+    /* display: inline-block !important; */
+}
+
+#content-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#web {
+    z-index: -2;
+    font-size: 16rem;
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hello {
+    letter-spacing: 1.3rem;
+}
+
+#content {
+    height: 90vh;
+    position: relative;
+}
+
+a {
+    color: black !important;
+    text-decoration: none;
+}
+
+a i {
+    font-size: 30px;
+}
+
+#link {
+    width: 100px;
+}
+
+#developer {
+    z-index: 2;
+    font-size: 4rem;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+}
+
+#about-p {
+    word-spacing: 0.4rem;
+}
+
+@media(max-width:567px) {
+    #web {
+        font-size: 13rem;
+        font-size: 10rem;
+    }
+    #hello {
+        letter-spacing: 0.8rem;
+    }
+    #content {
+        height: 95vh;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    #content {
+        height: 50vh;
+    }
+}
