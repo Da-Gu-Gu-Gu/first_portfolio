@@ -157,13 +157,13 @@
         <form method="POST" id="contact_form" class="container col-lg-10 col-md-10 col-12">
           @csrf
 
-            <div class="row justify-content-between container mb-3">
+            <div class="row justify-content-lg-between container mb-3">
             <div class="col-lg-6 col-12 ">
               <label for="name" class="form-label d-block text-left" style="text-align: left;">Name</label>
               <input type="text" class="col-12" id="name"  required >
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-12">
           <label for="email" class="form-label d-block text-left" style="text-align: left;">Email </label>
     <input type="email" class="col-12" id="email" aria-describedby="emailHelp"  required>
         </div>
