@@ -224,7 +224,7 @@ nanobar.go(100);
    var email=document.getElementById("email");
    var msg=document.getElementById("msg");
    
-axios.post('/api/contact/',{
+axios.post('/api/contact',{
   "name":name.value,
   "email":email.value,
   "msg":msg.value,
