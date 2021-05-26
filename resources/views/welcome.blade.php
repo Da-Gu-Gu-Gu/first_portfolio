@@ -154,7 +154,7 @@
         
         <div id="noti" class="bg-dark text-white mb-3" >Thanks</div>
      
-        <form action="" id="contact_form" class="container col-lg-10 col-md-10 col-12">
+        <form method="POST" id="contact_form" class="container col-lg-10 col-md-10 col-12">
           @csrf
 
             <div class="row justify-content-between container mb-3">
