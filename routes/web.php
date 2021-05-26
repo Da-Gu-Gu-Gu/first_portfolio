@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\All;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+Route::view('/admin','adminlogin');
+Route::group(['middleware'=>['adminPage']],function(){
+        Route::get('/admin/dashboard',[All::class,'admin']);
+        Route::get('/admin/logout',[All::class,'admin_logout']);
 });
