@@ -117,11 +117,12 @@
     </center>
       </div>
       
-      <div id="projects" class="container py-4 ">
+      <div id="projects" class="container py-4 mb-lg-3 mb-md-3 ">
         <h3 class="text-center mb-5" data-aos="fade-down"><b>My</b> Projects</h3>
-       <center><div class="row justify-content-between col-12 mb-4">
+       <center>
+         <div class="row justify-content-between col-12 mb-5">
 
-          <div data-aos="flip-up"  data-aos-duration="1000" class="col-lg-5 col-12 col-md-6 mb-4">
+          <div data-aos="flip-up"  data-aos-duration="1000" class="col-lg-5 col-12 col-md-6 mb-5">
             <div class="bg-info"style="height:200px">
             <img src="{{asset('img/Group 11.png')}}" id="imgs" alt="" width="100%" height="100%"></div>
             <div class=" col-12 p-2" style="background: #F2F2F2;">
@@ -133,7 +134,7 @@
             </div>
           </div>
 
-          <div data-aos="flip-up"  data-aos-duration="1500" class="col-lg-5 col-12 col-md-6 mb-4">
+          <div data-aos="flip-up"  data-aos-duration="1500" class="col-lg-5 col-12 col-md-6 mb-5">
             <div class="bg-info"style="height:200px">
               <img src="{{asset('img/Group 13.png')}}" id="imgs" alt="" width="100%" height="100%"</div>
             <div class=" col-12 p-2" style="background: #F2F2F2;">
@@ -144,8 +145,25 @@
               </div>
             </div>
           </div>
+          </div>
+         </div>
 
-        </div>
+         <div class="row justify-content-between col-12 mt-5 pt-3 pt-md-0 pt-lg-0 mb-5">
+          <div data-aos="flip-up"  data-aos-duration="1500" class="col-lg-5 col-12 col-md-6 mb-4 mt-5 mt-md-0 mt-lg-0 mt-md-2 ">
+            <div class="bg-info"style="height:200px">
+              <img src="{{asset('img/final (1).png')}}" id="imgs" alt="" width="100%" height="100%"</div>
+            <div class=" col-12 p-2" style="background: #F2F2F2;">
+              <p class="text-left" style="text-align: left;">Three.js</p>
+              <div class="d-flex justify-content-between px-2 py-2">
+                <span>3D Portal</span>
+                <a href="https://portal3d.herokuapp.com/"><button class="btn btn-outline-dark">View</button></a>
+              </div>
+            </div>
+          </div>
+          </div>
+         </div>
+
+       
       </center> 
       </div>
 
