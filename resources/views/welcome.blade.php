@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="{{asset('img/Icon.svg')}}">
     <title>Hein Htet Aung</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
   <x-links/>
@@ -95,22 +96,22 @@
     
       <div  data-aos="zoom-in"  data-aos-duration="1000" class="rounded-circle  p-2 border mb-3  border-dark"style="width:120px;height:120px;line-height:120px;" >
         <div id="1"  class="rounded-circle border bg-dark text-white text-center align-middle" style="width:100px;height:100px;line-height:100px;">
-            BOOTSTRAP
+            NODE
         </div>
     </div>
     <div  data-aos="zoom-in"  data-aos-duration="1500" class="rounded-circle  p-2 border mb-3  border-dark" style="width:120px;height:120px;line-height:120px;">
       <div id="1"  class="rounded-circle border bg-dark text-white text-center align-middle" style="width:100px;height:100px;line-height:100px;">
-          PHP 
+          MONGO
       </div>
     </div>
     <div  data-aos="zoom-in"  data-aos-duration="2000" class="rounded-circle  p-2 border mb-3  border-dark" style="width:120px;height:120px;line-height:120px;">
       <div id="1"  class="rounded-circle border bg-dark text-white text-center align-middle" style="width:100px;height:100px;line-height:100px;">
-         Laravel
+          XD
       </div>
     </div>
     <div  data-aos="zoom-in"  data-aos-duration="2500" class="rounded-circle  p-2 border mb-3  border-dark" style="width:120px;height:120px;line-height:120px;">
       <div id="1"  class="rounded-circle border bg-dark text-white text-center align-middle" style="width:100px;height:100px;line-height:100px;">
-         Web Design
+          FIGMA
       </div>
     </div>
    
@@ -136,7 +137,7 @@
 
           <div data-aos="flip-up"  data-aos-duration="1500" class="col-lg-5 col-12 col-md-6 mb-5">
             <div class="bg-info"style="height:200px">
-              <img src="{{asset('img/Group 13.png')}}" id="imgs" alt="" width="100%" height="100%"</div>
+              <img src="{{asset('img/Group 13.png')}}" id="imgs" alt="" width="100%" height="100%"></div>
             <div class=" col-12 p-2" style="background: #F2F2F2;">
               <p class="text-left" style="text-align: left;">React</p>
               <div class="d-flex justify-content-between px-2 py-2">
@@ -149,9 +150,10 @@
          </div>
 
          <div class="row justify-content-between col-12 mt-5 pt-3 pt-md-0 pt-lg-0 mb-5">
-          <div data-aos="flip-up"  data-aos-duration="1500" class="col-lg-5 col-12 col-md-6 mb-4 mt-5 mt-md-0 mt-lg-0 mt-md-2 ">
+         
+         <div data-aos="flip-up"  data-aos-duration="1500" class="col-lg-5 col-12 col-md-6 mb-4 mt-5 mt-md-0 mt-lg-0 mt-md-2 ">
             <div class="bg-info"style="height:200px">
-              <img src="{{asset('img/final (1).png')}}" id="imgs" alt="" width="100%" height="100%"</div>
+              <img src="{{asset('img/final (1).png')}}" id="imgs" alt="" width="100%" height="100%"></div>
             <div class=" col-12 p-2" style="background: #F2F2F2;">
               <p class="text-left" style="text-align: left;">Three.js</p>
               <div class="d-flex justify-content-between px-2 py-2">
@@ -160,10 +162,22 @@
               </div>
             </div>
           </div>
+
+
+          <div data-aos="flip-up"  data-aos-duration="1000" class="col-lg-5 col-12 col-md-6 mb-5">
+            <div class="bg-info"style="height:200px">
+            <img src="{{asset('img/CH.png')}}" id="imgs" alt="" width="100%" height="100%"></div>
+            <div class=" col-12 p-2" style="background: #F2F2F2;">
+              <p class="text-left" style="text-align: left;">React And Node</p>
+              <div class="d-flex justify-content-between px-2 py-2">
+                <span>Crush Hook</span>
+                  <a href="https://crushhook.herokuapp.com/"><button class="btn btn-outline-dark">View</button></a>
+              </div>
+            </div>
           </div>
+
          </div>
 
-       
       </center> 
       </div>
 
@@ -203,7 +217,7 @@
       </div>
 
 
-      <div id="footer" class="pb-0 border"style="background: #494949">
+      <div id="footer" style="background: #494949">
         <div id="logo">
           <img src="" alt="">
         </div>
