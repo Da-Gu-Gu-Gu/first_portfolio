@@ -146,37 +146,39 @@
               </div>
             </div>
           </div>
-          </div>
-         </div>
 
-         <div class="row justify-content-between col-12 mt-5 pt-3 pt-md-0 pt-lg-0 mb-5">
-         
-         <div data-aos="flip-up"  data-aos-duration="1500" class="col-lg-5 col-12 col-md-6 mb-4 mt-5 mt-md-0 mt-lg-0 mt-md-2 ">
+
+</div>
+
+<div class="row justify-content-between col-12 mb-4">
+
+          <div data-aos="flip-up"  data-aos-duration="1000" class="col-lg-5 col-12 col-md-6 mb-4">
             <div class="bg-info"style="height:200px">
-              <img src="{{asset('img/final (1).png')}}" id="imgs" alt="" width="100%" height="100%"></div>
+            <img src="{{asset('img/final (1).png')}}" id="imgs" alt="" width="100%" height="100%"></div>
             <div class=" col-12 p-2" style="background: #F2F2F2;">
-              <p class="text-left" style="text-align: left;">Three.js</p>
+              <p class="text-left" style="text-align: left;">Three js</p>
               <div class="d-flex justify-content-between px-2 py-2">
-                <span>3D Portal</span>
-                <a href="https://portal3d.herokuapp.com/"><button class="btn btn-outline-dark">View</button></a>
+                <span>3d Portal</span>
+                  <a href="https://portal3d.herokuapp.com/"><button class="btn btn-outline-dark">View</button></a>
               </div>
             </div>
           </div>
 
-
-          <div data-aos="flip-up"  data-aos-duration="1000" class="col-lg-5 col-12 col-md-6 mb-5">
+          <div data-aos="flip-up"  data-aos-duration="1500" class="col-lg-5 col-12 col-md-6 mb-4">
             <div class="bg-info"style="height:200px">
-            <img src="{{asset('img/CH.png')}}" id="imgs" alt="" width="100%" height="100%"></div>
+              <img src="{{asset('img/CH.png')}}" id="imgs" alt="" width="100%" height="100%"</div>
             <div class=" col-12 p-2" style="background: #F2F2F2;">
               <p class="text-left" style="text-align: left;">React And Node</p>
               <div class="d-flex justify-content-between px-2 py-2">
                 <span>Crush Hook</span>
-                  <a href="https://crushhook.herokuapp.com/"><button class="btn btn-outline-dark">View</button></a>
+                <a href="https://crushhook.herokuapp.com/"><button class="btn btn-outline-dark">View</button></a>
               </div>
             </div>
           </div>
 
-         </div>
+        </div>
+
+  
 
       </center> 
       </div>
@@ -217,7 +219,7 @@
       </div>
 
 
-      <div id="footer" style="background: #494949">
+      <div id="footer" class="pb-0 border" style="background: #494949">
         <div id="logo">
           <img src="" alt="">
         </div>
